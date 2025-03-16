@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container header {
+  width: 500px;
+  margin: 0 auto;
+}
+.logo {
+  text-align: center;
+  margin: 14px auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 22px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: blue;
+  font-size: 17px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.btn {
+  padding: 6px 10px;
+  background-color: orangered;
+  color: aliceblue;
+  border: hwb(from color h w b);
+  cursor: pointer;
+  font-style: italic;
+}
+.content {
+  margin-left: 10px;
+}
+.Story {
+  display: flex;
+  margin-right: 12px;
+}
+text {
+  display: flex;
+  align-items: center;
+}
+.description {
+  font-size: 14px;
+  margin: 12px 0;
+  font-style: oblique;
+  color: burlywood;
+}
+
+.game h2 {
+  text-align: center;
+  padding: 22px 0;
+}
+
+.game-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-detail {
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: aliceblue;
+}
+.game-price {
+  display: block;
+  margin: 12px 0;
+}
+.game-detail h3 {
+  margin: 16px;
+  font-size: 16px;
+}
+.game-item {
+  width: 32%;
+  position: relative;
+}
+.game-btn {
+  background-color: aliceblue;
+  width: 100%;
+  cursor: pointer;
+}
+footer {
+  height: 60px;
+  background-color: steelblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+footer p {
+  font-size: 15px;
+}
+footer button {
+  cursor: pointer;
+}
+html {
+  background-image: url(https://haloshop.vn/image/catalog/blogs/shin-megami-tensei-5-vengeance-se-co-them-75-gio-choi/shin-megami-tensei-5-vengeance-se-co-them-75-gio-choi.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: 2300px 1400px;
+}
